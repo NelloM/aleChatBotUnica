@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://iam.gpdp.it" ID="pfx8a26f5b1-71e0-0475-08ba-fe8ee6e00be5"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx8a26f5b1-71e0-0475-08ba-fe8ee6e00be5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>+y/0fSYXM6jDE7jebvoA7ZjWkyg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>S9l3PW7uu9OApRO95JZzhf0kF0jubNuIepUie46PbG9W9RVALDX5nAXmthdHgJyeI9kKFeT4k3zC1MBeTSpVSk1W/BOwXIYGAV8wQJ9P6NorfQ1McYOGsBNqSmdVqHG0Ol6NEJqoqLwIofxxT1pKjQm7cDvJPzsLVn6R8p1f1iLFTuYJCEnAk2JwSwdmU1fpPAk+WPDpqVUif1P4wu5B/Vb3yArUevhdrt5gyBXZWxuvo0Upc6TsbWzyr3xrNutR0cccg3q63aLl1soV/Qu95aCbTWQ0a3aAK3bQ0rvs3HeChqIexSJ1MmulYaurv97lgu4BKs0pziLngmYrsppSyA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFvzCCBKegAwIBAgIUPvsH/E+XcVe/5OHd/U6W/m13lhgwDQYJKoZIhvcNAQELBQAwgb0xNTAzBgNVBAoMLEdhcmFudGUgcGVyIGxhIHByb3RlemlvbmUgZGVpIGRhdGkgcGVyc29uYWxpMTUwMwYDVQQDDCxHYXJhbnRlIHBlciBsYSBwcm90ZXppb25lIGRlaSBkYXRpIHBlcnNvbmFsaTEcMBoGA1UEUwwTaHR0cHM6Ly9pYW0uZ3BkcC5pdDETMBEGA1UEYQwKUEE6SVQtZ3BkcDELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWEwHhcNMjIwMzE0MTQyODIwWhcNMzIwMzExMTQyODIwWjCBvTE1MDMGA1UECgwsR2FyYW50ZSBwZXIgbGEgcHJvdGV6aW9uZSBkZWkgZGF0aSBwZXJzb25hbGkxNTAzBgNVBAMMLEdhcmFudGUgcGVyIGxhIHByb3RlemlvbmUgZGVpIGRhdGkgcGVyc29uYWxpMRwwGgYDVQRTDBNodHRwczovL2lhbS5ncGRwLml0MRMwEQYDVQRhDApQQTpJVC1ncGRwMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKrLvxWYbmeDjFTG+yIuV+wjv9ofzeoVKxkCc8cWnoHoV1KGMv5hX9Co3EwqwhNNKB1Xjs0FJmvm3iRwTZVspPqgAJtnuW2EXovlV93Y/hrre+NiDVjiTbjIzigA4VximsYs+F48M4kjcyRESpISurA2JTlzVxfuu0vaXZTMPRfMC4aQ650g1nR7+2Dwnm3nDzw1dqy02DqA+ii6vbhUvFZNMv72n97a+5uemsSFLMmj9As322ZQ97Gw4VTDN+8P2Hh6w+FazTFsgRuXEwtkPUIeMXGKAFfCKn4lkX98VesbyFD2js9VD3WwkTTkfo51+qYAXS4asVqVlM4fpPM7nwUCAwEAAaOCAbMwggGvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMHMGA1UdIARsMGowHwYDK0wQMBgwFgYIKwYBBQUHAgIwCgwIQWdJRHJvb3QwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoMCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0MC2NlcnRfU1BfUHViMB0GA1UdDgQWBBSWX38UJMWt9V7k7seK0CApKFNa7jCB/QYDVR0jBIH1MIHygBSWX38UJMWt9V7k7seK0CApKFNa7qGBw6SBwDCBvTE1MDMGA1UECgwsR2FyYW50ZSBwZXIgbGEgcHJvdGV6aW9uZSBkZWkgZGF0aSBwZXJzb25hbGkxNTAzBgNVBAMMLEdhcmFudGUgcGVyIGxhIHByb3RlemlvbmUgZGVpIGRhdGkgcGVyc29uYWxpMRwwGgYDVQRTDBNodHRwczovL2lhbS5ncGRwLml0MRMwEQYDVQRhDApQQTpJVC1ncGRwMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYYIUPvsH/E+XcVe/5OHd/U6W/m13lhgwDQYJKoZIhvcNAQELBQADggEBABemQ5IYpzEP4Zu4XjA7Fi0ql4oARq/K4A9ISBbsg6NYJ/B8AJhh72apoPMWDhml81R07S9loQR9hiNmuDxpn0Sd96UzytfVmdp8vWu5p4KtPO6Wc+eokJJQ6WiDpOqSE5c0PgYvWK8tXCNkaAG9ZkIGoondXpgOt4wrPceAZwoF/U/J3wglJwkLuvGuanEIeQRa+SbNQO3NyzUD+V75aZ7LW1NDpS1KpXe5+9IO2rWFB8D7s/Un6HiU7YHCMjrcD7uSLU7Ri+PiwXvT9O8knLgMiJJiRptWhb1rdNkRUwFHIRz1xXX1c35MdL6ze9dq1T+4XZWRwE87ml7WpzCK9Us=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIFvzCCBKegAwIBAgIUPvsH/E+XcVe/5OHd/U6W/m13lhgwDQYJKoZIhvcNAQELBQAwgb0xNTAzBgNVBAoMLEdhcmFudGUgcGVyIGxhIHByb3RlemlvbmUgZGVpIGRhdGkgcGVyc29uYWxpMTUwMwYDVQQDDCxHYXJhbnRlIHBlciBsYSBwcm90ZXppb25lIGRlaSBkYXRpIHBlcnNvbmFsaTEcMBoGA1UEUwwTaHR0cHM6Ly9pYW0uZ3BkcC5pdDETMBEGA1UEYQwKUEE6SVQtZ3BkcDELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWEwHhcNMjIwMzE0MTQyODIwWhcNMzIwMzExMTQyODIwWjCBvTE1MDMGA1UECgwsR2FyYW50ZSBwZXIgbGEgcHJvdGV6aW9uZSBkZWkgZGF0aSBwZXJzb25hbGkxNTAzBgNVBAMMLEdhcmFudGUgcGVyIGxhIHByb3RlemlvbmUgZGVpIGRhdGkgcGVyc29uYWxpMRwwGgYDVQRTDBNodHRwczovL2lhbS5ncGRwLml0MRMwEQYDVQRhDApQQTpJVC1ncGRwMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKrLvxWYbmeDjFTG+yIuV+wjv9ofzeoVKxkCc8cWnoHoV1KGMv5hX9Co3EwqwhNNKB1Xjs0FJmvm3iRwTZVspPqgAJtnuW2EXovlV93Y/hrre+NiDVjiTbjIzigA4VximsYs+F48M4kjcyRESpISurA2JTlzVxfuu0vaXZTMPRfMC4aQ650g1nR7+2Dwnm3nDzw1dqy02DqA+ii6vbhUvFZNMv72n97a+5uemsSFLMmj9As322ZQ97Gw4VTDN+8P2Hh6w+FazTFsgRuXEwtkPUIeMXGKAFfCKn4lkX98VesbyFD2js9VD3WwkTTkfo51+qYAXS4asVqVlM4fpPM7nwUCAwEAAaOCAbMwggGvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMHMGA1UdIARsMGowHwYDK0wQMBgwFgYIKwYBBQUHAgIwCgwIQWdJRHJvb3QwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoMCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0MC2NlcnRfU1BfUHViMB0GA1UdDgQWBBSWX38UJMWt9V7k7seK0CApKFNa7jCB/QYDVR0jBIH1MIHygBSWX38UJMWt9V7k7seK0CApKFNa7qGBw6SBwDCBvTE1MDMGA1UECgwsR2FyYW50ZSBwZXIgbGEgcHJvdGV6aW9uZSBkZWkgZGF0aSBwZXJzb25hbGkxNTAzBgNVBAMMLEdhcmFudGUgcGVyIGxhIHByb3RlemlvbmUgZGVpIGRhdGkgcGVyc29uYWxpMRwwGgYDVQRTDBNodHRwczovL2lhbS5ncGRwLml0MRMwEQYDVQRhDApQQTpJVC1ncGRwMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYYIUPvsH/E+XcVe/5OHd/U6W/m13lhgwDQYJKoZIhvcNAQELBQADggEBABemQ5IYpzEP4Zu4XjA7Fi0ql4oARq/K4A9ISBbsg6NYJ/B8AJhh72apoPMWDhml81R07S9loQR9hiNmuDxpn0Sd96UzytfVmdp8vWu5p4KtPO6Wc+eokJJQ6WiDpOqSE5c0PgYvWK8tXCNkaAG9ZkIGoondXpgOt4wrPceAZwoF/U/J3wglJwkLuvGuanEIeQRa+SbNQO3NyzUD+V75aZ7LW1NDpS1KpXe5+9IO2rWFB8D7s/Un6HiU7YHCMjrcD7uSLU7Ri+PiwXvT9O8knLgMiJJiRptWhb1rdNkRUwFHIRz1xXX1c35MdL6ze9dq1T+4XZWRwE87ml7WpzCK9Us=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.gpdp.it/spid/sls-logout/"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.gpdp.it/spid/acs0/" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.gpdp.it/spid/acs1/" index="1" isDefault="false"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.gpdp.it/spid/acs2/" index="2" isDefault="false"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.gpdp.it/spid/acs3/" index="3" isDefault="false"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iam.gpdp.it/spid/acs4/" index="4" isDefault="false"/>
+<md:AttributeConsumingService index="0">
+<md:ServiceName xml:lang="it">Servizi On line GPDP</md:ServiceName>
+<md:RequestedAttribute Name="name" isRequired="true"/>
+<md:RequestedAttribute Name="familyName" isRequired="true"/>
+<md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="99">
+<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+<md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="dateOfBirth"/>
+</md:AttributeConsumingService>
+<md:AttributeConsumingService index="100">
+<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+<md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="dateOfBirth"/>
+<md:RequestedAttribute Name="placeOfBirth"/>
+<md:RequestedAttribute Name="address"/>
+<md:RequestedAttribute Name="gender"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="it">Garante per la protezione dei dati personali</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="it">Garante per la protezione dei dati personali</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="it">https://www.garanteprivacy.it/</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other">
+<md:Extensions>
+<spid:IPACode>gpdp</spid:IPACode><spid:Public/>
+<spid:AgeLimit>
+<AssertionConsumerServiceIndex>0</AssertionConsumerServiceIndex>
+<MinAge>18</MinAge>
+<MaxAge>999</MaxAge>
+<AgeParentAuth>0</AgeParentAuth>
+</spid:AgeLimit>
+<spid:AgeLimit>
+<AssertionConsumerServiceIndex>1</AssertionConsumerServiceIndex>
+<MinAge>14</MinAge>
+<MaxAge>999</MaxAge>
+<AgeParentAuth>18</AgeParentAuth>
+</spid:AgeLimit>
+<spid:AgeLimit>
+<AssertionConsumerServiceIndex>2</AssertionConsumerServiceIndex>
+<MinAge>15</MinAge>
+<MaxAge>999</MaxAge>
+<AgeParentAuth>18</AgeParentAuth>
+</spid:AgeLimit>
+<spid:AgeLimit>
+<AssertionConsumerServiceIndex>3</AssertionConsumerServiceIndex>
+<MinAge>16</MinAge>
+<MaxAge>999</MaxAge>
+<AgeParentAuth>18</AgeParentAuth>
+</spid:AgeLimit>
+<spid:AgeLimit>
+<AssertionConsumerServiceIndex>4</AssertionConsumerServiceIndex>
+<MinAge>17</MinAge>
+<MaxAge>999</MaxAge>
+<AgeParentAuth>18</AgeParentAuth>
+</spid:AgeLimit>
+</md:Extensions>
+<md:EmailAddress>dtdsi@gpdp.it</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>
